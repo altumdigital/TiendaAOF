@@ -3,9 +3,9 @@
 	padding:0; 
 }
 /*---CSS MENU---*/
-.container {
+body {
 	font-family: arial;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .main {
@@ -37,12 +37,58 @@
 .title-login {
 	font-family: arial;
 	text-align: center;
-	margin-top: 8%;
+	margin-top: 5%;
 }
 
 .login {
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 320px;
+	margin-top: 120px;
 	text-align: center;
 	border-style: groove;
+}
+
+.data-login {
+	padding: 8px 15px;
+	margin-top: 10px;
+}
+
+.button-login, .button-products{
+	margin-top: 25px;
+	background-color: #B65F5F;
+}
+
+/*---PRODUCTS---*/
+
+.title-products {
+	font-family: arial;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.list-products {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: -50px auto;
+	padding: 100px;
+}
+
+.products {
+	padding: 35px;
+	align-items: center;
+	border-style: groove;
+}
+
+h4.product {
+	text-align: center;
+}
+
+.row-2 {
+	margin-top: -200px;
+}
+
+.button-products {
+	padding: 10px;
+	margin: 5px auto;
 }
